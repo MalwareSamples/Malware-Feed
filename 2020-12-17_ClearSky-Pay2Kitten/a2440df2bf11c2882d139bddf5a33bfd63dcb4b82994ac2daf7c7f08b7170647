@@ -1,0 +1,12 @@
+[common]
+server_addr = 54.174.216.48
+server_port = 443
+tls_enable = true
+token = laksddflko986wq35029735
+
+[BMT - BMTA-BES-TRM-07]
+type = tcp
+use_encryption = true
+local_ip = 127.0.0.1
+local_port = 3389
+remote_port = 0

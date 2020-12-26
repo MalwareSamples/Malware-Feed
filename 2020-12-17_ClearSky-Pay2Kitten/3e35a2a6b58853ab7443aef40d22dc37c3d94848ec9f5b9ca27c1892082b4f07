@@ -1,0 +1,12 @@
+[common]
+server_addr = 3.237.39.72
+server_port = 443
+tls_enable = true
+token = laksddflko986wq35029735
+
+[MedaTech - Optimus]
+type = tcp
+use_encryption = true
+local_ip = 127.0.0.1
+local_port = 3389
+remote_port = 0
